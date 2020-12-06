@@ -93,7 +93,7 @@ h1 {
     padding: 10px;
     border: 4px solid #E74C3C;
     border-radius: 10px;
-    background-color: #fafafa80;
+    background-color: #fafafa90;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,26 +142,16 @@ h1 {
 ----------------------------------------------*/
 
 @media (min-width: 380px) and (max-width: 580px) {
-    
-    body {
-        /* background-image: url(./images/background-brain-2.jpg); */
-        background-position-x: center;
-        background-position-y: 100%;
-        background-size: auto;
-    }
 
 }
 
 
 @media (max-width: 379.9px) {
-    
-    body {
-        /* background-image: url(./images/background-brain-2.jpg); */
-        background-position-x: center;
-        background-position-y: 100%;
-        background-size: auto;
-    }
 
+    h1 {
+        font-size: 30px;
+    }
+    
     /*----------------------------------------------
                     TEXTO PRINCIPAL
     ----------------------------------------------*/
@@ -169,23 +159,6 @@ h1 {
     .principal-tree, .contenedor-footer { 
         width: 300px;
     }
-
-    /* .contenedor-link {
-        width: 90%;
-        margin: 5px;
-        padding: 10px;
-        border: 2px solid #fafafa;
-        border-radius: 10px;
-        background-color: #42424280;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: cyan;
-    } */
-
-    /* .img-logo {
-        width: 35px;
-    } */
 
     .txt-title-link {
         font-size: 18px;
@@ -196,25 +169,21 @@ h1 {
     ----------------------------------------------*/
 
     .contenedor-footer {
-        width: 300px;
+        width: 280px;
     }
 
 }
 
+/*----------------------------------------------
+                    COLORES
+----------------------------------------------*/
+
 .lolipop {
     color: #ae0315;
     color: #E74C3C;
-    
+    color: #fafafa;
 }
 
 /*----------------------------------------------
                     @Luzyla
 ----------------------------------------------*/
-
-
-
-
-/* fotos https://goo.gl/maps/Qrwqv9gJTEy7Uu5M8 
-
-
-*/
