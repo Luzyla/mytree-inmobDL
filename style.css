@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /* INMOBILIARIA LOGO */
+
 
 body {
-    background-image: url(./images/background-brain.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(128,0,0);
+    background: linear-gradient(180deg, rgba(128,0,0,1) 0%, rgba(155,17,30,1) 18%, rgba(231,76,60,1) 100%);
     text-align: center;
-    font-family: Montserrat;
+    font-family: "Source Sans Pro";
     color: #fafafa;
     display: flex;
     justify-content: center;
@@ -15,9 +16,9 @@ body {
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*----------------------------------------------
@@ -32,26 +33,21 @@ body {
 
 .contenedor-img-profile {
     width: 150px;
+    height: 150px;
     margin-top: 35px;
     border-radius: 100px;
+    border: 4px solid #E74C3C;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fafafa;
+    box-shadow: 3px 3px 5px #42424280;
 }
 
 .img-profile {
-    width: 150px;
-    border-radius: 120px;
-}
+    width: 120px;
+    height: 120px;
 
-/*----------------------------------------------
-                OVERLAY
-----------------------------------------------*/
-.overlay {
-    width: 100%;
-    background-color: #42424280;
-    position: relative;
-    z-index: 1;
 }
 
 /*----------------------------------------------
@@ -67,13 +63,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: cyan;
+    color: #fafafa;
 }
 
 h1 {
-    font-family: Allura;
-    font-size: 45px;
+    font-family: Parisienne;
+    font-size: 35px;
     text-shadow: 3px 3px 5px #42424280;
+    margin: 5px 0 5px 0;
 }
 
 /*----------------------------------------------
@@ -94,13 +91,13 @@ h1 {
     width: 90%;
     margin: 5px;
     padding: 10px;
-    border: 2px solid #fafafa;
+    border: 4px solid #E74C3C;
     border-radius: 10px;
-    background-color: #42424280;
+    background-color: #fafafa80;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: cyan;
+    color: #ae0315;
 }
 
 .img-logo {
@@ -108,30 +105,26 @@ h1 {
 }
 
 .txt-title-link {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
+    font-style: bold;
     margin-left: 10px;
-    color: cyan;
+    color: #ae0315;
 }
  
 .contenedor-link:hover {
     background-color: #fafafa;
-    /* text-shadow: 3px 3px 5px #00a6d6; */
-    color: #00a6d6;
+    color: #ae0315;
 }
 
-/* .link-redes:hover {
-    background-color: #fafafa;
-    color: #00a6d6;
-}  */
 
 /*----------------------------------------------
                     FOOTER
 ----------------------------------------------*/
 
 .contenedor-footer {
-    width: 360px;
-    background-color: #42424280;
+    width: 320px;
+    background-color: #fafafa80;
     margin: 30px 0 10px 0;
     padding: 10px;
 }
@@ -141,7 +134,7 @@ h1 {
 }
 
 .contenedor-footer a {
-    color: #00a6d6;
+    color: #ae0315;
 }
 
 /*----------------------------------------------
@@ -151,7 +144,7 @@ h1 {
 @media (min-width: 380px) and (max-width: 580px) {
     
     body {
-        background-image: url(./images/background-brain-2.jpg);
+        /* background-image: url(./images/background-brain-2.jpg); */
         background-position-x: center;
         background-position-y: 100%;
         background-size: auto;
@@ -163,7 +156,7 @@ h1 {
 @media (max-width: 379.9px) {
     
     body {
-        background-image: url(./images/background-brain-2.jpg);
+        /* background-image: url(./images/background-brain-2.jpg); */
         background-position-x: center;
         background-position-y: 100%;
         background-size: auto;
@@ -207,3 +200,21 @@ h1 {
     }
 
 }
+
+.lolipop {
+    color: #ae0315;
+    color: #E74C3C;
+    
+}
+
+/*----------------------------------------------
+                    @Luzyla
+----------------------------------------------*/
+
+
+
+
+/* fotos https://goo.gl/maps/Qrwqv9gJTEy7Uu5M8 
+
+
+*/
