@@ -4,8 +4,10 @@
 
 
 body {
+    /* background: rgb(128,0,0);
+    background: linear-gradient(180deg, rgba(128,0,0,1) 0%, rgba(155,17,30,1) 6%, rgba(231,76,60,1) 100%); */
     background: rgb(128,0,0);
-    background: linear-gradient(180deg, rgba(128,0,0,1) 0%, rgba(155,17,30,1) 6%, rgba(231,76,60,1) 100%);
+    background: linear-gradient(180deg, rgba(128,0,0,1) 0%, rgba(155,17,30,1) 10%, rgba(194,21,37,1) 100%);
     text-align: center;
     font-family: "Source Sans Pro";
     color: #fafafa;
@@ -40,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fafafa;
+    background-color: #fafafa90;
     box-shadow: 3px 3px 5px #42424280;
 }
 
