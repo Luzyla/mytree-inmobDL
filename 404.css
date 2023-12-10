@@ -1,0 +1,52 @@
+/*----------------------------------------------
+                    MESSAGE 
+----------------------------------------------*/
+
+.principal-message {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  width: 90%;
+}
+
+.cont-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin: 2rem;
+}
+
+.title-message {
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem 0;
+}
+
+.txt-message {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 2rem;
+  padding: 1rem 0;
+}
+
+.link-volver {
+  font-style: italic;
+}
+
+.cont-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  /*width: 100%;*/
+}
+

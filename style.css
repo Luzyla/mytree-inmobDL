@@ -131,7 +131,8 @@ h1 {
 }
 
 .contenedor-signature {
-    background-color: #fafafa80;
+    background-color: #fafafa10;
+    width: 100%;
 }
 
 .free-resources {
