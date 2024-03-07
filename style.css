@@ -1,20 +1,23 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /* INMOBILIARIA LOGO */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/* INMOBILIARIA LOGO */
 
 
 body {
-    background: rgb(128,0,0);
-    background: linear-gradient(180deg, rgba(128,0,0,1) 0%, rgba(174,3,21,1) 10%, rgba(200,82,93,1) 100%);
+    background: rgb(128, 0, 0);
+    background: linear-gradient(180deg, rgba(128, 0, 0, 1) 0%, rgba(174, 3, 21, 1) 10%, rgba(200, 82, 93, 1) 100%);
     background-repeat: no-repeat;
     text-align: center;
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro", sans-serif;
     color: #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 * {
@@ -32,6 +35,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding-bottom: 1rem;
+    /* margin-top: 100px; */
 }
 
 .contenedor-img-profile {
@@ -59,7 +63,7 @@ body {
 
 a {
     text-decoration: none;
-    
+
 }
 
 .link-redes {
@@ -80,7 +84,7 @@ h1 {
                 TEXTO PRINCIPAL
 ----------------------------------------------*/
 
-.principal-tree, .contenedor-footer, .contenedor-signature { 
+.principal-tree, .contenedor-footer, .contenedor-signature {
     position: relative;
     width: 360px;
     display: flex;
@@ -114,7 +118,7 @@ h1 {
     margin-left: 10px;
     color: #ae0315;
 }
- 
+
 .contenedor-link:hover {
     background-color: #fafafa;
     color: #ae0315;
@@ -137,7 +141,7 @@ h1 {
 }
 
 .free-resources {
-    margin: 10px 0 5px 0;    
+    margin: 10px 0 5px 0;
 }
 
 .contenedor-footer a {
@@ -148,9 +152,7 @@ h1 {
                 RESPONSIVE
 ----------------------------------------------*/
 
-@media (min-width: 380px) and (max-width: 580px) {
-
-}
+@media (min-width: 380px) and (max-width: 580px) {}
 
 
 @media (max-width: 379.9px) {
@@ -158,19 +160,19 @@ h1 {
     h1 {
         font-size: 30px;
     }
-    
+
     /*----------------------------------------------
                     TEXTO PRINCIPAL
     ----------------------------------------------*/
 
-    .principal-tree, .contenedor-footer { 
+    .principal-tree, .contenedor-footer {
         width: 300px;
     }
 
     .txt-title-link {
         font-size: 18px;
     }
-    
+
     /*----------------------------------------------
                         FOOTER
     ----------------------------------------------*/
